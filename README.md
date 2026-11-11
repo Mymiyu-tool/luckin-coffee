@@ -2,6 +2,10 @@
   <img src="assets/icon.png" width="128" alt="Luckin Coffee">
 </p>
 
+<p align="center">
+  <a href="https://github.com/Mymiyu-tool/luckin-coffee/actions/workflows/package.yml"><img src="https://github.com/Mymiyu-tool/luckin-coffee/actions/workflows/package.yml/badge.svg" alt="Package"></a>
+</p>
+
 <h1 align="center">Luckin Coffee · 瑞幸咖啡</h1>
 
 <p align="center">查门店、看菜单、预览订单、下单、查单、取消——走本机 luckin CLI 的登录态。</p>
@@ -26,9 +30,18 @@ luckin --version
 ## 安装
 
 ```bash
-git clone https://github.com/miyu-packages/luckin-coffee.git
+git clone https://github.com/Mymiyu-tool/luckin-coffee.git
 miyu pkg install ./luckin-coffee
 ```
+
+或者下载 Release 里的 `.miyu`：
+
+```bash
+curl -LO https://github.com/Mymiyu-tool/luckin-coffee/releases/latest/download/luckin-coffee-0.1.0.miyu
+miyu pkg install luckin-coffee-0.1.0.miyu
+```
+
+> 官方社区源收录之后，可以直接 `miyu pkg install luckin-coffee`。
 
 装好后出现 `luckin_coffee` 工具。
 

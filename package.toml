@@ -4,4 +4,4 @@ name = { en = "Luckin Coffee", zh = "瑞幸咖啡" }
 summary = { en = "Look up stores and menus, preview, create, inspect and cancel Luckin orders through the local luckin CLI", zh = "查门店菜单、预览/创建/查询/取消瑞幸订单，走本地 luckin CLI 的登录态" }
 author = "yxxbc"
 icon = "coffee"
-upstream = "https://github.com/miyu-packages/luckin-coffee"
+upstream = "https://github.com/Mymiyu-tool/luckin-coffee"
